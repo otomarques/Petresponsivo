@@ -1,0 +1,91 @@
+@media screen and (max-width: 1200px) {
+    .sobre {
+        flex-direction: column;
+    }
+
+    .sobre-valores {
+        width: 100%;
+        text-align: center;
+    }
+
+    .titulo_valores {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    
+
+    .painel-principal,
+    .anuncio-petz {
+        align-items: center;
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 100%;
+    }
+
+    .titulo_painel {
+        font-size: 32px;
+        width: 90%;
+        font-weight: 700;
+        color: var(--color-primary-text);
+        line-height: 32px;
+        gap: 5px;
+    }
+
+    .descricao {
+        font-size: 23px;
+        line-height: 23px;
+    }
+
+    .imagens-petz {
+        display: flex;
+    }
+
+    /*tipos de perfil*/
+
+    .titulo_perfil {
+        font-size: 25px;
+    }
+
+    .descricao_card {
+        font-size: 15px;
+    }
+
+    .geral_card a {
+        font-size: 15px;
+    }
+
+    .conteudo-footer{
+        font-size: 15px;
+        flex-direction: column;
+    }
+
+    .redes-sociais p{
+        font-size: 15px;
+        font-weight: 300;
+        padding: 10px;
+    }
+
+    .titulo_painel{
+        order: 3;
+    }
+
+    .descricao{
+        order: 2;
+    }
+
+    .botao_principal{
+        order: 1;
+    }
+
+}
+@media screen and (max-width: 530px) {
+    .cards-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+
+
